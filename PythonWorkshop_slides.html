@@ -7,7 +7,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>Python_CheatSheet_withSolutions (1) (8) slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Python_CheatSheet_withSolutions slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
@@ -14465,7 +14465,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 <li>If sentences</li>
 <li>Loops</li>
 <li>Functions</li>
-<li>Classes and objects (most difficult chunk)</li>
+<li><em>probably not classes and objects (most difficult chunk)</em></li>
 <li>Imports (best chunk)</li>
 <li>Final tips and what you should do</li>
 </ol>
@@ -14532,6 +14532,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 <li>Learning a programming language is like learning any other language</li>
 <li>Vocabulary: not so important (Google is your best friend)</li>
 <li>Grammar (=Syntax): <strong>very important</strong></li>
+<li><strong>Watch out on how characters, signs, brackets ()[]{} etc. are all used! Otherwise you will get some errors.</strong></li>
 </ul>
 <p>Today we will learn a lot about the grammar, the baseline of Python programming.</p>
 
@@ -14786,7 +14787,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># single quotes in a double quote string</span>
@@ -14803,7 +14804,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This will not work</span>
@@ -14828,7 +14829,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre>
-<span class="ansi-cyan-fg">  File </span><span class="ansi-green-fg">&#34;&lt;ipython-input-25-686de77f327f&gt;&#34;</span><span class="ansi-cyan-fg">, line </span><span class="ansi-green-fg">2</span>
+<span class="ansi-cyan-fg">  File </span><span class="ansi-green-fg">&#34;&lt;ipython-input-2-686de77f327f&gt;&#34;</span><span class="ansi-cyan-fg">, line </span><span class="ansi-green-fg">2</span>
 <span class="ansi-red-fg">    cems_single_wrong = &#39;Here I&#39;ve got some wrong code&#39;</span>
                                 ^
 <span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> invalid syntax
@@ -14846,10 +14847,10 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 <p><em>Quick workaround:</em></p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Backslashes make bad characters harmless</span>
@@ -14869,6 +14870,28 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Here I&#39;ve got both single and &#34;double quotes&#34; in one variable
+Here I&#39;ve got an abbreviation in my text (I&#39;ve). Here I can &#34;quote something in double quotes&#34; but not single ones.
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -14880,10 +14903,10 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 <p><em>Advanced: What might be wrong with the code?</em></p>
 
 </div>
-</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution</span>
@@ -14901,20 +14924,42 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>My name isMatthias
+My name is Matthias
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Integers-and-floats">Integers and floats<a class="anchor-link" href="#Integers-and-floats">&#182;</a></h2><p>Numbers you can calculate stuff with.</p>
 <ul>
 <li>Integers are natural numbers without commas</li>
-<li>Floats always have a comma</li>
+<li>Floats are numbers with decimals. They always have a comma.</li>
 </ul>
 
 </div>
-</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Define an integer</span>
@@ -14941,6 +14986,29 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>20
+20.61
+42.61
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -14950,7 +15018,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># we turn that float into an integer</span>
@@ -15004,7 +15072,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This will NOT work</span>
@@ -15032,7 +15100,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-27-8376fb425322&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">&lt;ipython-input-7-8376fb425322&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-red-fg"># This will NOT work</span>
 <span class="ansi-green-intense-fg ansi-bold">      2</span> some_number <span class="ansi-blue-fg">=</span> <span class="ansi-cyan-fg">42</span>
 <span class="ansi-green-fg">----&gt; 3</span><span class="ansi-red-fg"> </span>print<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;The number is &#34;</span> <span class="ansi-blue-fg">+</span> some_number <span class="ansi-blue-fg">+</span> <span class="ansi-blue-fg">&#34; and has always been &#34;</span> <span class="ansi-blue-fg">+</span> some_number <span class="ansi-blue-fg">+</span> <span class="ansi-blue-fg">&#34;.&#34;</span><span class="ansi-blue-fg">)</span>
@@ -15054,7 +15122,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This will work</span>
@@ -15092,7 +15160,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># a much cooler way of printing: use f-strings</span>
@@ -15138,7 +15206,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Your variables</span>
@@ -15155,7 +15223,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution</span>
@@ -15170,7 +15238,7 @@ more): <a href="https://github.com/perfxweb/python-workshop">https://github.com/
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution</span>
@@ -15228,7 +15296,7 @@ The average age is 35.62
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">is_this_true</span> <span class="o">=</span> <span class="kc">True</span>
@@ -15286,7 +15354,7 @@ Use square brackets <code>[ ]</code>.</p>
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># List example</span>
@@ -15337,7 +15405,7 @@ Karen
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Advanced:</span>
@@ -15392,7 +15460,7 @@ Karen
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Editing the item from index 2</span>
@@ -15439,7 +15507,7 @@ Karen
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Editing a variable based on another variable</span>
@@ -15486,7 +15554,7 @@ Karen
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># main one, now every name includes an age.</span>
@@ -15541,7 +15609,7 @@ Use curly brackets <code>{ }</code>.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># dictionaries</span>
@@ -15584,7 +15652,7 @@ Use curly brackets <code>{ }</code>.</p>
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># changing variables or ADDING new ones is EXACTLY the same as with lists</span>
@@ -15634,7 +15702,7 @@ Use curly brackets <code>{ }</code>.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Your variables</span>
@@ -15654,7 +15722,7 @@ Use curly brackets <code>{ }</code>.</p>
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution</span>
@@ -15741,7 +15809,7 @@ Use curly brackets <code>{ }</code>.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># some variables first</span>
@@ -15787,8 +15855,8 @@ Use curly brackets <code>{ }</code>.</p>
 <li><code>==</code>: equal to</li>
 <li><code>!=</code>: not equal to</li>
 <li><code>&gt;</code>: bigger than</li>
-<li><code>&lt;=</code>: smaller than</li>
-<li><code>&gt;</code>: bigger or equal to</li>
+<li><code>&lt;</code>: smaller than</li>
+<li><code>&gt;=</code>: bigger or equal to</li>
 <li><code>&lt;=</code>: smaller or equal to</li>
 </ul>
 <p>You can also use any <strong>function</strong> as an if-operator (more on that later). If that function returns <code>False</code>, then the condition is not met, otherwise the condition is met.</p>
@@ -15815,7 +15883,7 @@ Use curly brackets <code>{ }</code>.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># some variables first</span>
@@ -15870,7 +15938,7 @@ Variable &#39;person&#39; has a name and an age set!
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">person</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;Karen&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span><span class="mi">23</span><span class="p">}</span>
@@ -15928,7 +15996,7 @@ Variable &#39;person&#39; has a name and an age set!
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">person</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;Karen&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span><span class="mi">24</span><span class="p">,</span> <span class="s1">&#39;programming_grade&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">}</span>
@@ -15937,7 +16005,7 @@ Variable &#39;person&#39; has a name and an age set!
   <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Person is over 18.&quot;</span><span class="p">)</span>
 
 <span class="k">else</span><span class="p">:</span>
-  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;person&#39;s is 18 or under.&quot;</span><span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Person is 18 or under.&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15975,7 +16043,7 @@ Variable &#39;person&#39; has a name and an age set!
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">person</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;Karen&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span><span class="mi">24</span><span class="p">,</span> <span class="s1">&#39;programming_grade&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">}</span>
@@ -15984,13 +16052,13 @@ Variable &#39;person&#39; has a name and an age set!
   <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Person is over 18.&quot;</span><span class="p">)</span>
 
   <span class="k">if</span> <span class="n">person</span><span class="p">[</span><span class="s1">&#39;programming_grade&#39;</span><span class="p">]</span><span class="o">&lt;</span><span class="mi">3</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Peron&#39;s programming grade is lower than 2.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Person&#39;s programming grade is lower than 2.&quot;</span><span class="p">)</span>
   
   <span class="k">else</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Programming grade is higher than 2.&quot;</span><span class="p">)</span>
 
 <span class="k">else</span><span class="p">:</span>
-  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;person&#39;s is 18 or under.&quot;</span><span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Person is 18 or under.&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -16011,7 +16079,7 @@ Variable &#39;person&#39; has a name and an age set!
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Person is over 18.
-Peron&#39;s programming grade is lower than 2.
+Person&#39;s programming grade is lower than 2.
 </pre>
 </div>
 </div>
@@ -16029,7 +16097,7 @@ Peron&#39;s programming grade is lower than 2.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">person</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;Karen&#39;</span><span class="p">,</span> <span class="s1">&#39;age&#39;</span><span class="p">:</span><span class="mi">24</span><span class="p">,</span> <span class="s1">&#39;programming_grade&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">}</span>
@@ -16038,7 +16106,7 @@ Peron&#39;s programming grade is lower than 2.
   <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Person is over 18.&quot;</span><span class="p">)</span>
 
   <span class="k">if</span> <span class="n">person</span><span class="p">[</span><span class="s1">&#39;programming_grade&#39;</span><span class="p">]</span><span class="o">&lt;</span><span class="mi">3</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Peron&#39;s programming grade is lower than 2.&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Person programming grade is lower than 2.&quot;</span><span class="p">)</span>
 
     <span class="k">if</span> <span class="n">person</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="o">==</span><span class="s2">&quot;Karen&quot;</span><span class="p">:</span>
       <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;And the person&#39;s name is Karen&quot;</span><span class="p">)</span>
@@ -16049,7 +16117,7 @@ Peron&#39;s programming grade is lower than 2.
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Programming grade is higher than 2.&quot;</span><span class="p">)</span>
 
 <span class="k">else</span><span class="p">:</span>
-  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;person&#39;s is 18 or under.&quot;</span><span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Person is 18 or under.&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -16070,7 +16138,7 @@ Peron&#39;s programming grade is lower than 2.
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Person is over 18.
-Peron&#39;s programming grade is lower than 2.
+Person programming grade is lower than 2.
 And the person&#39;s name is Karen
 </pre>
 </div>
@@ -16096,7 +16164,7 @@ And the person&#39;s name is Karen
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">age</span> <span class="o">=</span> <span class="mi">15</span>
@@ -16166,7 +16234,6 @@ And the person&#39;s name is Karen
 <h3 id="Before-we-start:-Excursus-to-googling-Python-vocabulary">Before we start: Excursus to googling Python vocabulary<a class="anchor-link" href="#Before-we-start:-Excursus-to-googling-Python-vocabulary">&#182;</a></h3><p>How to find functions like <code>len(variable)</code> or <code>variable.lower()</code> if you have no clue about all of this?</p>
 <p><a href="https://www.google.com/search?q=python+variable+length">Google: Python variable length (for <code>len(variable)</code>)</a></p>
 <p><a href="https://www.google.com/search?q=python+lowercase">Google: Python lowercase (for <code>str.lower()</code>)</a></p>
-<p><img src="https://raw.githubusercontent.com/PerfXWeb/python-workshop/master/images/meme_googling.jpg" width="60%"></p>
 
 </div>
 </div></section><section>
@@ -16177,7 +16244,7 @@ And the person&#39;s name is Karen
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The password variable</span>
@@ -16192,7 +16259,7 @@ And the person&#39;s name is Karen
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution</span>
@@ -16278,7 +16345,7 @@ And the person&#39;s name is Karen
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># setting an age</span>
@@ -16334,7 +16401,7 @@ Happy birthday! You&#39;re allowed to drink now!
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># setting a few names in a list</span>
@@ -16394,7 +16461,7 @@ Hello Melania
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># setting up names with bank balances (assuming people have several banks)</span>
@@ -16408,12 +16475,14 @@ Hello Melania
          <span class="p">{</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="s1">&#39;Melania&#39;</span><span class="p">,</span> <span class="s1">&#39;bank_balances&#39;</span><span class="p">:[</span><span class="mi">383</span><span class="p">,</span><span class="mi">335</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">66</span><span class="p">,</span><span class="mi">24</span><span class="p">]}</span>
         <span class="p">]</span>
 
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span>
-  <span class="k">if</span> <span class="s1">&#39;name&#39;</span> <span class="ow">in</span> <span class="n">i</span> <span class="ow">and</span> <span class="s1">&#39;bank_balances&#39;</span> <span class="ow">in</span> <span class="n">i</span><span class="p">:</span> <span class="c1"># just checks if the variables we need are set</span>
+<span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span>
+  <span class="k">if</span> <span class="s1">&#39;name&#39;</span> <span class="ow">in</span> <span class="n">name</span> <span class="ow">and</span> <span class="s1">&#39;bank_balances&#39;</span> <span class="ow">in</span> <span class="n">name</span><span class="p">:</span> <span class="c1"># just checks if the variables we need are set</span>
+    
     <span class="n">curr_balance</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1"># we use this variable to add up the balances every time</span>
-    <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">i</span><span class="p">[</span><span class="s1">&#39;bank_balances&#39;</span><span class="p">]:</span>
+    <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">name</span><span class="p">[</span><span class="s1">&#39;bank_balances&#39;</span><span class="p">]:</span>
       <span class="n">curr_balance</span> <span class="o">=</span> <span class="n">curr_balance</span> <span class="o">+</span> <span class="n">value</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">i</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> has a total balance of: </span><span class="si">{</span><span class="n">curr_balance</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">name</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2"> has a total balance of: </span><span class="si">{</span><span class="n">curr_balance</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -16457,7 +16526,7 @@ Melania has a total balance of: 810
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[55]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
@@ -16503,7 +16572,7 @@ printing number 9 out of 10
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># if you want to count from 1 to 10, you have to set a starting number and an end number</span>
@@ -16562,21 +16631,22 @@ printing number 10 out of 10
 </ul>
 
 </div>
-</div><div class="fragment">
+</div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><i>Hints:</p>
+<p><em>Hints:</em></p>
 <ul>
-<li>use a <code>for</code> loop.</li>
-<li>Use <code>result.append()</code> to append to your result dictionary. (we have used that one before)</li>
-<li>have another look at the examples above if you're unsure.&lt;/i&gt;</li>
+<li><em>use a <code>for</code> loop.</em></li>
+<li><em>Use <code>result.append()</code> to append to your result dictionary. (we have used that one before)</em></li>
+<li><em>have another look at the examples above if you're unsure.</em></li>
+<li><em>You can either use for loops to calculate compound interest or google how to do power operations.</em></li>
 </ul>
 
 </div>
-</div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># your variables</span>
@@ -16596,7 +16666,7 @@ printing number 10 out of 10
 </div>
 </div>
 
-</div></section><section>
+</div></div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><img src="https://raw.githubusercontent.com/PerfXWeb/python-workshop/master/images/pw-menti.png" width="60%"></p>
@@ -16605,7 +16675,7 @@ printing number 10 out of 10
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution</span>
@@ -16648,6 +16718,50 @@ printing number 10 out of 10
 
 </div>
 
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution alternative, using the power operator</span>
+<span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>                                           <span class="c1"># creating a place to put our results</span>
+
+<span class="k">for</span> <span class="n">person</span> <span class="ow">in</span> <span class="n">people</span><span class="p">:</span>                                 <span class="c1"># going through every person</span>
+  <span class="n">capital</span> <span class="o">=</span> <span class="n">person</span><span class="p">[</span><span class="s1">&#39;capital&#39;</span><span class="p">]</span><span class="o">*</span><span class="n">person</span><span class="p">[</span><span class="s1">&#39;interest&#39;</span><span class="p">]</span><span class="o">**</span><span class="mi">10</span>
+
+  <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">&#39;name&#39;</span><span class="p">:</span><span class="n">person</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span> <span class="s1">&#39;new_capital&#39;</span><span class="p">:</span><span class="n">capital</span><span class="p">})</span>
+                                              <span class="c1"># after calculations are done, append person to result</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>[{&#39;name&#39;: &#39;Mark&#39;, &#39;new_capital&#39;: 1397.0288910795477}, {&#39;name&#39;: &#39;Steve&#39;, &#39;new_capital&#39;: 5427.578846018834}, {&#39;name&#39;: &#39;Elon&#39;, &#39;new_capital&#39;: 117238.37223026212}, {&#39;name&#39;: &#39;Melinda&#39;, &#39;new_capital&#39;: 2396511.6749082888}, {&#39;name&#39;: &#39;Bill&#39;, &#39;new_capital&#39;: 10834643.308630189}, {&#39;name&#39;: &#39;Angela&#39;, &#39;new_capital&#39;: 143.25526545224741}, {&#39;name&#39;: &#39;Melania&#39;, &#39;new_capital&#39;: 109786.18380036879}]
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -16679,7 +16793,7 @@ printing number 10 out of 10
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">myfunction</span><span class="p">():</span>
@@ -16700,7 +16814,7 @@ printing number 10 out of 10
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">myfunction</span><span class="p">()</span>
@@ -16741,7 +16855,7 @@ printing number 10 out of 10
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">greeting</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
@@ -16762,7 +16876,7 @@ printing number 10 out of 10
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">greeting</span><span class="p">(</span><span class="s2">&quot;Elena&quot;</span><span class="p">)</span>
@@ -16805,7 +16919,7 @@ This is a message for John
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># this will NOT work</span>
@@ -16832,7 +16946,7 @@ This is a message for John
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
 <span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-8-b450c4c5145c&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">&lt;ipython-input-45-b450c4c5145c&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
 <span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-red-fg"># this will NOT work</span>
 <span class="ansi-green-fg">----&gt; 2</span><span class="ansi-red-fg"> </span>greeting<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
 
@@ -16853,7 +16967,7 @@ This is a message for John
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">greeting2</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Elton&quot;</span><span class="p">):</span>
@@ -16874,7 +16988,7 @@ This is a message for John
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">greeting2</span><span class="p">()</span>
@@ -16917,12 +17031,11 @@ This is a message for Jessica
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">calculate_interest</span><span class="p">(</span><span class="n">capital</span><span class="p">,</span> <span class="n">interest</span><span class="p">,</span> <span class="n">years</span><span class="p">):</span>
-  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">years</span><span class="p">):</span>
-    <span class="n">capital</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">capital</span><span class="o">*</span><span class="n">interest</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+  <span class="n">capital</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">capital</span><span class="o">*</span><span class="n">interest</span><span class="o">**</span><span class="n">years</span><span class="p">)</span>
   
   <span class="c1"># now return the result (without printing)</span>
   <span class="k">return</span> <span class="n">capital</span>
@@ -16942,7 +17055,7 @@ This is a message for Jessica
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">my_interest</span> <span class="o">=</span> <span class="n">calculate_interest</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mf">1.05</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span>
@@ -16969,8 +17082,8 @@ This is a message for Jessica
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>We calculated a future capital of 2078.928
-We calculated a future capital of 2078.928
+<pre>We calculated a future capital of 2079
+We calculated a future capital of 2079
 </pre>
 </div>
 </div>
@@ -17003,7 +17116,7 @@ We calculated a future capital of 2078.928
 </div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution</span>
@@ -17044,15 +17157,12 @@ We calculated a future capital of 2078.928
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution (Bonus)</span>
 <span class="k">def</span> <span class="nf">average_calc</span><span class="p">(</span><span class="n">numbers</span><span class="p">):</span>
-  <span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
-  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">numbers</span><span class="p">:</span>
-    <span class="nb">sum</span> <span class="o">=</span> <span class="nb">sum</span> <span class="o">+</span> <span class="n">i</span>
-  <span class="k">return</span> <span class="nb">sum</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+  <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
 
 
 <span class="n">result</span> <span class="o">=</span> <span class="n">average_calc</span><span class="p">([</span><span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">25</span><span class="p">])</span>
@@ -17105,7 +17215,7 @@ We calculated a future capital of 2078.928
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>The main reason why we learn what classes are:</p>
 <ul>
-<li>Basically everything</li>
+<li>Basically everything in Python is based on it.</li>
 </ul>
 
 </div>
@@ -17147,7 +17257,7 @@ We calculated a future capital of 2078.928
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># creating a class</span>
@@ -17179,7 +17289,7 @@ We calculated a future capital of 2078.928
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># now, we&#39;ll create two different trees</span>
@@ -17195,7 +17305,7 @@ We calculated a future capital of 2078.928
 </div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># we can check for the number of branches and apples (=attributes) in each tree like this:</span>
@@ -17238,7 +17348,7 @@ We calculated a future capital of 2078.928
 </div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[55]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># now let&#39;s carve in some names into our trees using methods:</span>
@@ -17313,10 +17423,10 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
 </div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><i>Bonus exercise:</p>
+<p><em>Bonus exercise:</em></p>
 <ul>
-<li>Create another method <code>divisible_or_self</code> that not only prints "flop" when the number is divisible by <code>div</code> but also if one of the digits of the current number is equal to <code>div</code><ul>
-<li>e.g. if <code>div</code> is 3, then the number 13, 133 or 35 should "flop" as well&lt;/i&gt;</li>
+<li><em>Create another method <code>divisible_or_self</code> that not only prints "flop" when the number is divisible by <code>div</code> but also if one of the digits of the current number is equal to <code>div</code></em><ul>
+<li><em>e.g. if <code>div</code> is 3, then the number 13, 133 or 35 should "flop" as well&lt;/i&gt;</em></li>
 </ul>
 </li>
 </ul>
@@ -17338,7 +17448,7 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[56]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution</span>
@@ -17487,7 +17597,7 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
 </div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[57]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Solution (incl. bonus)</span>
@@ -17683,10 +17793,10 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
 <p>Some examples of useful modules:</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[58]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">time</span> <span class="c1"># we have already used the time module before</span>
@@ -17701,16 +17811,38 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>1606525351.399513
+1606525356.400438
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>A good example of how I failed to use this API (Application Programming Interface):</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[72]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
@@ -17718,9 +17850,9 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
 <span class="c1"># Chuck Norris API: https://api.chucknorris.io</span>
 
 <span class="n">joke</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;https://api.chucknorris.io/jokes/random&quot;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">joke</span><span class="p">)</span> <span class="c1"># this usually prints out everything.</span>
+<span class="c1">#print(joke) # this usually prints out everything.</span>
             <span class="c1"># Unfortunately, &quot;joke&quot; is now an object, so we don&#39;t see anything</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">joke</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">)</span> <span class="c1"># __dict__ shows you every attribute of an object. That way we can find out more.</span>
+<span class="c1">#print(joke.__dict__) # __dict__ shows you every attribute of an object. That way we can find out more.</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">joke</span><span class="o">.</span><span class="n">content</span><span class="p">[</span><span class="s1">&#39;value&#39;</span><span class="p">])</span> <span class="c1"># I wanted to print out the value, but it didn&#39;t work</span>
 
 <span class="c1"># Looked it up on Google...</span>
@@ -17731,16 +17863,46 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-72-b3d493cccb38&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">      7</span>             <span class="ansi-red-fg"># Unfortunately, &#34;joke&#34; is now an object, so we don&#39;t see anything</span>
+<span class="ansi-green-intense-fg ansi-bold">      8</span> <span class="ansi-red-fg">#print(joke.__dict__) # __dict__ shows you every attribute of an object. That way we can find out more.</span>
+<span class="ansi-green-fg">----&gt; 9</span><span class="ansi-red-fg"> </span>print<span class="ansi-blue-fg">(</span>joke<span class="ansi-blue-fg">.</span>content<span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;value&#39;</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">)</span> <span class="ansi-red-fg"># I wanted to print out the value, but it didn&#39;t work</span>
+<span class="ansi-green-intense-fg ansi-bold">     10</span> 
+<span class="ansi-green-intense-fg ansi-bold">     11</span> <span class="ansi-red-fg"># Looked it up on Google...</span>
+
+<span class="ansi-red-fg">TypeError</span>: byte indices must be integers or slices, not str</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div><div class="fragment">
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Solved it using <a href="https://stackoverflow.com/questions/52102398/typeerror-byte-indices-must-be-integers-or-slices-not-str/52102506">this Stackoverflow post</a>.</p>
 
 </div>
-</div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># turns out I need to convert from a JSON format into a normal Python dictionary format</span>
@@ -17757,16 +17919,37 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Chuck Norris can finish a fat Cuban cigar in a single massive drag. He will then crunch up and swallow the roach, and stare at you while slowly exhaling through his nostrils.
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Another useful example:</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[69]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># this uses a module within a module (matplotlib.pyplot) and renames it to plt</span>
@@ -17785,6 +17968,31 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="data:image/png;base64,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
+"
+>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div><div class="fragment">
@@ -17909,8 +18117,8 @@ Look at all these carved in names: [&#39;Brad&#39;, &#39;Sophie&#39;]
 <li>If-sentences (nested ifs, elif,...)</li>
 <li>Loops (while, for, range() function)</li>
 <li>Functions (arguments in functions, return,...)</li>
-<li>Classes and objects</li>
 <li>Imports (plus examples)</li>
+<li>(didn't learn about classes and objects but you can go through the slides on your own)</li>
 </ul>
 </li>
 </ul>
