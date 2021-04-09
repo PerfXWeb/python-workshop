@@ -1,6 +1,6 @@
-# Python Workshop
+# Python Skill Seminar
 
-CEMS Club Vienna - From absolute 0 to Python hero
+Python Skill Seminar Workshop - From absolute 0 to Python hero
 
 Workshop by Matthias Hausberger
 
@@ -16,7 +16,7 @@ This is all this Python Workshop is about. Easy explanations, exercises, tips an
 You can download the workshop slides and open them locally on your computer as a html file. These consist of exactly what is in the Cheat Sheet so no need to really look at them unless you prefer the slide design.
 
 ## sample_code
-Just some sample code that we discussed in class. If you want me to add some more here or if you have code that you want to share with your colleagues, let me know via matthias.hausberger@s.wu.ac.at, I will upload it here.
+Just some sample code that we discussed in class, as well as everything that is discussed in the live coding sessions. If you want me to add some more here or if you have code that you want to share with your colleagues, let me know via matthias.hausberger@s.wu.ac.at, I will upload it here.
 
 ## images folder
 Just all memes and images used in the Colab Notebook.
